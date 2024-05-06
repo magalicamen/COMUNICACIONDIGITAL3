@@ -1,0 +1,1609 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+/* HOME*/
+
+
+body{
+    background-color: #ffffff;
+}
+
+
+.logo{
+    margin-top: 8px;
+    margin-left: 10px   
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.HOME1{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin left: 10px;
+    margin right: 10px ;
+}
+
+
+nav{
+    
+    background-color: white;
+    width: 100%;
+    margin-top: -8px;
+    z-index: 1000; 
+}
+
+
+ul{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    margin-top: -50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    margin-right: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 30px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    font-family: 'Roboto blond', sans-serif;
+    font-size: x-large;
+    color: #023567;
+  }
+
+
+  .linea-con-degradado {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to top, #000000, #ffffff); 
+    margin-top: -8px;
+  }
+
+
+  
+  .textoportada {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #023567;
+    text-shadow: 6px 6px 5px #027bc2;
+    text-align: center;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.boton {
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 50px; 
+    background-color: #023567;
+    border-radius: 50px;
+    padding: 10px; 
+    box-shadow: 6px 6px 5px #027bc2;
+    overflow: hidden; 
+
+transition: background-color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+}
+
+.boton:hover {
+    background-color: #0063a9; /* Cambia el color al pasar el ratón por encima */
+}
+
+.textoboton p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0; 
+    margin-top: 45px;
+}
+
+.HOME11{ 
+    display: none;
+}
+
+
+
+.BOX1HOME {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-top: -120px;
+}
+
+.HOME2 {
+    width: 450px; 
+    height: auto;
+    margin-right: 60px; 
+    margin-left:40px ;
+}
+
+.TEXTOBOX1HOME {
+    flex: 1; 
+    padding-left: 250px;
+    margin-right: 40px;
+}
+
+.TEXTOBOX1HOME h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #023567;
+
+
+}
+
+.TEXTOBOX1HOME p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    font-size: 30px;
+    max-height: 200px; 
+    overflow-y: auto; 
+
+}
+
+
+
+.BOX2HOME {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-top: 80px;
+}
+
+.HOME3 {
+    width: 450px; 
+    height: auto;
+    margin-right: 60px; 
+    margin-left:40px ;
+}
+
+.TEXTOBOX2HOME {
+    flex: 1; 
+    padding-left: 250px;
+    margin-right: 40px;
+}
+
+.TEXTOBOX2HOME h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #023567;
+}
+
+.TEXTOBOX2HOME p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    font-size: 30px;
+    max-height: 200px; 
+    overflow-y: auto; 
+}
+
+
+
+.contactanos h1 {
+    font-family:'Roboto', sans-serif; 
+    font-size: 60px;
+    font-weight: 700;
+    color: #023567;
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 800px;
+    margin-top: 150px;
+}
+
+.contactanos p {
+    font-family:'Roboto thin', sans-serif; 
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center; 
+    margin-top: 10px;
+}
+
+
+  .botoncontactanos {
+    width: 120px;
+    height: 0.05cm;
+    border: 2px solid #023567;
+    padding: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 44%;
+    transition: background-color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+}
+
+.botoncontactanos:hover {
+    background-color: #9fd7ff; /* Cambia el color al pasar el ratón por encima */
+}
+
+.botoncontactanos p {
+    font-family:'Roboto', sans-serif; 
+    font-size: 20px;
+    color: #023567;
+    text-align: center; 
+    margin-top: -10px;
+}
+
+.boton .textoboton {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 22px;
+    margin-top: -33px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer{
+    background: linear-gradient(to top, #95cbdf, #ffffff);
+    padding: 0%;
+    height: 480px;
+    margin-top: 100px;
+  left: 0;
+  width: 100%;
+}
+
+.linea-con-degradado2 {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(to bottom, #000000, #ffffff); 
+    margin-top: -8px;
+}
+
+.nosotrosfooter {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px; 
+    margin-top: 0px;
+
+}
+
+.nosotrosfooter .contenido {
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.nosotrosfooter h1 {
+    font-family: 'Roboto thin', sans-serif;
+    font-size: 27px;
+    color: #000000;
+    margin: 0; 
+}
+
+.nosotrosfooter p {
+    font-family: 'Roboto thin', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.redesfooter {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-top: -320px;
+}
+
+.redesfooter h1{
+    font-family:'Roboto thin', sans-serif; 
+    font-size: 27px;
+    color: #000000;
+    
+}
+
+
+.iconosredes {
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    margin-top: 70px;
+    
+}
+
+.iconosredes img {
+    margin: 5px;
+}
+
+.newfooter {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px; 
+    margin-top: -222px;
+
+}
+
+.newfooter .contenido {
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.newfooter h1 {
+    font-family: 'Roboto thin', sans-serif;
+    font-size: 27px;
+    color: #000000;
+    margin: 0; 
+}
+
+.newfooter p {
+    font-family: 'Roboto thin', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.newfooter .formulario0 {
+    text-align: left; 
+}
+
+.newfooter input[type="email"] {
+    width: 200px;  
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 10px; 
+}
+
+.newfooter button {
+    font-family: 'Roboto thin', sans-serif;
+    padding: 10px 20px; 
+    background-color: #023567; 
+    color: #ffffff; 
+    border: none; 
+    margin-top: 10px; 
+    border-radius: 10px; 
+}
+
+
+
+.copyright {
+    font-family: 'Roboto thin italic', sans-serif;
+    text-align: center; 
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #222222; 
+}
+
+
+/* NOSOTROS*/
+
+
+.NOSOTROS1{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin left: 10px;
+    margin right: 10px ;
+}
+
+.TEXTOABAJODEIMAGEN {
+    text-align: center; 
+}
+
+.TEXTOABAJODEIMAGEN {
+    background-color: #0071cf;
+    padding: 40px;
+}
+
+.TEXTOABAJODEIMAGEN h1 {
+    font-size: 34px; 
+    font-family: 'Roboto', sans-serif;
+    color: #fff; 
+    margin-top: -50px;
+}
+
+.TEXTOABAJODEIMAGEN p {
+    font-size: 26px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #fff; 
+    max-width: 70%; 
+    overflow-y: auto;
+    margin-left: 15%;  
+}
+
+
+.CONTENEDOR1NOSOTROS {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center; 
+    margin-left: 11%;
+}
+
+.CONTENIDOLOQUENECESITASSABER {
+    flex: 1;
+    text-align: left;
+}
+
+.CONTENIDODATOSSOBRECERAVE {
+    flex: 1;
+    text-align: left;
+}
+
+.LOQUENECESITASSABER h1,
+.DATOSSOBRECERAVE h1 {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567;
+}
+
+.LOQUENECESITASSABER p,
+.DATOSSOBRECERAVE p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    max-width: 77%;
+}
+
+.CONTENEDORPRODUCTOS {
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.CONTENEDORPRODUCTOS h1 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    color: #0071cf;
+}
+
+.IMAGENESCONTENEDORPRODUCTOS {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.IMAGENESCONTENEDORPRODUCTOS img {
+    max-width: 300px; 
+    margin: 0 10px; 
+
+    
+}
+
+.vermas {
+    width: 120px;
+    height: 0.05cm;
+    border: 2px solid #023567;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 44%;
+    transition: background-color 0.3s;
+}
+
+.vermas:hover {
+    background-color: #9fd7ff; /* Cambia el color al pasar el ratón por encima */
+}
+
+.vermas p {
+    font-family:'Roboto', sans-serif; 
+    font-size: 20px;
+    color: #023567;
+    text-align: center; 
+    margin-top: -10px;
+}
+
+
+
+
+/* NEWSTELER*/
+
+.NEWSLETTERSIGNUP {
+    margin-top: 70px;
+    text-align: center; 
+}
+
+.NEWSLETTERSIGNUP h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #023567;
+    display: block;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.NEWSLETTERSIGNUP p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #000000;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+    margin-top: -10px;
+}
+
+
+.formulario {
+    text-align: center; 
+    font-family: 'Roboto', sans-serif;
+    max-width: 450px; 
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+  
+  .formulario input,
+  .formulario textarea {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #023567;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .formulario textarea {
+    height: 150px;
+    padding-top: 15px;
+  }
+  
+  .formulario label {
+    display: block;
+    text-align: left; 
+  }
+  
+  .formulario button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #0071cf;
+    border-color: #0071cf;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.formulario button:hover {
+    background-color: #023567; 
+}
+  
+  .formulario button p {
+    color: #fff;
+  }
+  
+  span{
+    color: #0071cf; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #0071cf;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #0071cf;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #0071cf;
+  }
+
+  .select_piel {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #023567;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    text-align: left; 
+}
+
+
+/* PRODUCTOS*/
+
+
+.PRODUCTOS1{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin left: 10px;
+    margin right: 10px ;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN {
+    text-align: center; 
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN {
+    background-color: #a1e8e5;
+    padding: 40px;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN h1 {
+    font-size: 34px; 
+    font-family: 'Roboto', sans-serif;
+    color: #023567; 
+    margin-top: -100px;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN p {
+    font-size: 26px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #000000; 
+    max-width: 90%; 
+    overflow-y: auto;
+    margin-left: 5%; 
+    margin-top: -30px; 
+}
+
+.EXPLORALOSPRODUCTOSPORCATEGORIA {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.EXPLORALOSPRODUCTOSPORCATEGORIA h1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    color: #0071cf; 
+    word-spacing: 7px;
+}
+
+.PRODUCTOSPORCATEGORIA img {
+    margin-top: -100px;
+    margin: 10px; 
+    transition: box-shadow 0.3s; /* Agregamos una transición para suavizar el cambio de sombra */
+}
+
+.PRODUCTOSPORCATEGORIA img:hover {
+    box-shadow: 0 0 10px #03548f; /* Agregamos una sombra azul al pasar el ratón por encima */
+}
+.linea-azul {
+    border-top: 12px solid #0071cf; 
+    margin-top: 20px; 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LIMPIADORESF h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.LIMPIADORESF img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.HIDRATANTESC h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.HIDRATANTESC img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.HIDRATANTESF h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.HIDRATANTESF img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.LIMPIADORESC h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.LIMPIADORESC img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.SERUMS h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.SERUMS img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.CREMA h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.CREMA img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+
+
+
+
+
+
+/* HOME TABLET*/
+
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        width: 200px; 
+        height: auto; 
+        position: absolute; 
+        top: 0; 
+        left: 0;
+    }
+
+    
+    nav{
+        background-color: white;
+        width: 100%;
+        margin-top: 150px;
+    }
+    
+    
+    ul{
+        
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+  
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #000000;
+        padding: 15px;
+      }
+
+      nav ul li a:hover,
+      nav ul li a.active {
+        font-family: 'Roboto blond', sans-serif;
+        font-size: 16px;
+        color: #023567;
+      }
+
+    .linea-con-degradado {
+        width: 100%;
+        height: 8px;
+        background: linear-gradient(to top, #000000, #ffffff); 
+        margin-top: px;
+      }
+
+    .HOME1{ 
+        display: none;
+}
+
+     .HOME11 {
+        display: block;
+        max-width: 99%;
+}
+
+
+    .textoportada {
+        font-family:'Roboto', sans-serif; 
+        font-size: 70px;
+        font-weight: 700;
+        color: #023567;
+        text-shadow:6px 6px 5px #027bc2;
+        text-align: center; 
+        margin-top: -200px;
+    }
+    
+    .boton {
+        position:relative;
+        left: 49%;
+        width: 300px;
+        height: 30px;
+        background-color: #023567;
+        border-radius: 50px;
+        padding: 30px;
+        margin-top: -250px;
+        box-shadow: 6px 6px 5px #027bc2 ;
+}
+
+.textoboton p{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.BOX1HOME {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+.HOME2 {
+    width: 550px; 
+    height: auto;
+    margin-right: 60px; 
+    margin-left:60px ;
+}
+
+.TEXTOBOX1HOME {
+    text-align: center;
+    padding-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.BOX2HOME {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.HOME3 {
+    width: 550px; 
+    height: auto;
+    margin-right: 60px; 
+    margin-left:60px ;
+}
+
+.TEXTOBOX2HOME {
+    text-align: center;
+    padding-left: 40px;
+    margin-right: 40px;
+
+}
+
+.contactanos {
+    margin-top: -800px;
+}
+
+.contactanos h1 {
+    font-size: 50px;
+    margin-top: 950px;
+}
+
+.contactanos p {
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+
+  .botoncontactanos {
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+
+
+
+
+.footer {
+    flex-direction: column; 
+    height: 580px;
+}
+
+.newfooter,
+.redesfooter {
+    margin: 0; 
+}
+
+.nosotrosfooter {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 10px; 
+    margin-top: 0px;
+}
+
+.nosotrosfooter .contenido {
+    max-width: 280px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.newfooter {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px; 
+    margin-top: -545px;
+}
+
+.newfooter .contenido {
+    max-width: 280px; 
+}
+
+
+
+.newfooter input[type="email"] {
+    margin-top: -10px; 
+}
+
+.newfooter button {
+    margin-top: 5px; 
+}
+
+.iconosredes {
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    margin-top: 20px;
+    
+}
+
+
+.copyright {
+    margin-top: 180px; 
+    font-size: 10px;
+}
+
+}
+
+
+/* NOSOTROSTABLET*/
+
+@media screen and (max-width: 768px) {
+
+    .TEXTOABAJODEIMAGEN h1 {
+        font-size: 30px; 
+        font-family: 'Roboto', sans-serif;
+        color: #fff; 
+        margin-top: -50px;
+    }
+    
+    .TEXTOABAJODEIMAGEN p {
+        font-size: 18px; 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 270;
+        color: #fff; 
+        max-width: 99%; 
+        overflow-y: auto;
+        margin-left: 1%;  
+        margin-top: -15px;
+    }
+    
+
+    .CONTENEDOR1NOSOTROS {
+   margin-top: 30px;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column; 
+    }
+    
+    .CONTENIDOLOQUENECESITASSABER {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .CONTENIDODATOSSOBRECERAVE {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .LOQUENECESITASSABER h1,
+    .DATOSSOBRECERAVE h1 {
+        font-size: 26px;
+    }
+    
+    .LOQUENECESITASSABER p,
+    .DATOSSOBRECERAVE p {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    
+    .CONTENEDORPRODUCTOS {
+        margin-top: 60px;
+        text-align: center; 
+       
+    }
+    
+    .CONTENEDORPRODUCTOS h1 {
+        font-size: 36px;
+    }
+    
+    .IMAGENESCONTENEDORPRODUCTOS {
+        margin-top: -10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .IMAGENESCONTENEDORPRODUCTOS img {
+        max-width: 220px; 
+
+    }
+
+}
+
+
+
+/* PRODUCTOSTABLET*/
+
+@media screen and (max-width: 768px) {
+
+    .PRODUCTOSTEXTOABAJODEIMAGEN h1 {
+        font-size: 30px; 
+        font-family: 'Roboto', sans-serif;
+        color: #023567; 
+        margin-top: -50px;
+    }
+    
+    .PRODUCTOSTEXTOABAJODEIMAGEN p {
+        margin: 0;
+        font-size: 20px; 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 270;
+        color: #000000; 
+        max-width: 99%; 
+        overflow-y: auto;
+    }
+    
+    .LIMPIADORESF img {
+        margin-left: 12%;
+        width: 30%; 
+        height: auto;
+    }
+    
+    .HIDRATANTESC img {
+        margin-left: 12%;
+        width: 30%; 
+        height: auto;
+    }
+    
+    .HIDRATANTESF img {
+        margin-left: 12%;
+        width: 30%; 
+        height: auto;
+    }
+    
+    .LIMPIADORESC img {
+        margin-left: 12%;
+        width: 30%;  
+        height: auto;
+    }
+    
+    .SERUMS img {
+        margin-left: 12%;
+        width: 30%; 
+        height: auto;
+    }
+    
+    .CREMA img {
+        margin-left: 12%;
+        width: 30%; 
+        height: auto;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+/* HOMECELULAR*/
+
+@media screen and (max-width: 320px) {
+    
+    .logo {
+        width: 100px; 
+        height: auto; 
+        position: absolute; 
+        top: 0; 
+        left: 0;
+    }
+
+    
+    nav{
+        background-color: white;
+        width: 100%;
+        margin-top: 120px;
+    }
+    
+    
+    ul{
+        
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+  
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #000000;
+        padding: 15px;
+      }
+
+      nav ul li a:hover,
+      nav ul li a.active {
+        font-family: 'Roboto blond', sans-serif;
+        font-size: 16px;
+        color: #023567;
+      }
+
+    .linea-con-degradado {
+        width: 100%;
+        height: 8px;
+        background: linear-gradient(to top, #000000, #ffffff); 
+        margin-top: 0px;
+      }
+
+    .HOME1{ 
+        display: none;
+}
+
+     .HOME11 {
+        display: block;
+        max-width: 99%;
+}
+
+    .textoportada {
+        font-family:'Roboto', sans-serif; 
+        font-size: 32px;
+        font-weight: 700;
+        color: #023567;
+        text-shadow:6px 6px 5px #027bc2;
+        text-align: center; 
+        margin-top: -50px;
+    }
+    
+    .boton {
+        position:relative;
+        left: 50%;
+        width: 180px;
+      height: 10px;
+        background-color: #023567;
+        border-radius: 50px;
+        padding: 30px;
+        margin-top: -90px;
+        box-shadow: 6px 6px 5px #027bc2 ;
+}
+
+.textoboton p{
+    font-size: 20px;
+    margin-top: 23px
+}
+
+
+.BOX1HOME {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.HOME2 {
+    width: 270px; 
+    height: auto;
+    margin-right: 60px; 
+    margin-left:60px ;
+}
+
+.TEXTOBOX1HOME {
+    text-align: center;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.TEXTOBOX1HOME h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #023567;
+    font-size: 20px;
+}
+
+.TEXTOBOX1HOME p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    font-size: 21px;
+    max-height: 20px; 
+    overflow-y: auto; 
+}
+
+
+.BOX2HOME {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.HOME3 {
+    width: 270px; 
+    height: auto;
+    margin-right: 60px; 
+    margin-left:60px ;
+}
+
+.TEXTOBOX2HOME {
+    text-align: center;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.TEXTOBOX2HOME h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #023567;
+    font-size: 20px;
+}
+
+.TEXTOBOX2HOME p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    font-size: 21px;
+    max-height: 20px; 
+    overflow-y: auto; 
+}
+
+.contactanos {
+    margin-top: -800px;
+}
+
+.contactanos h1 {
+    font-size: 29px;
+    margin-top: 900px;
+}
+
+.contactanos p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+  .botoncontactanos {
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+
+
+
+.footer {
+    flex-direction: column; 
+    height: 1100px;
+    margin-top: 120px;
+}
+
+.nosotrosfooter,
+.newfooter,
+.redesfooter {
+    flex: 1; 
+    text-align: left;
+    padding: 10px; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+}
+
+.iconosredes {
+    transform: scale(.8);
+}
+
+.nosotrosfooter {
+    order: 1; 
+}
+
+.newfooter {
+    order: 2; 
+}
+
+.redesfooter {
+    order: 3; 
+    margin-top: ;
+
+}
+
+
+.copyright {
+    margin-top: 40px; 
+    font-size: 10px;
+}
+
+}
+
+
+/* NOSOTROSCELULAR*/
+
+@media screen and (max-width: 320px) {
+
+    .TEXTOABAJODEIMAGEN h1 {
+        font-size: 30px; 
+        font-family: 'Roboto', sans-serif;
+        color: #fff; 
+        margin-top: -50px;
+    }
+    
+    .TEXTOABAJODEIMAGEN p {
+        font-size: 18px; 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 270;
+        color: #fff; 
+        max-width: 99%; 
+        overflow-y: auto;
+        margin-left: 1%;  
+        margin-top: -15px;
+    }
+    
+
+    .CONTENEDOR1NOSOTROS {
+   
+        display: flex;
+        justify-content: center; 
+        flex-direction: column; 
+    }
+    
+    .CONTENIDOLOQUENECESITASSABER {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .CONTENIDODATOSSOBRECERAVE {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .LOQUENECESITASSABER h1,
+    .DATOSSOBRECERAVE h1 {
+        font-size: 26px;
+    }
+    
+    .LOQUENECESITASSABER p,
+    .DATOSSOBRECERAVE p {
+        font-size: 18px;
+        max-width: 98%;
+    }
+    
+    .CONTENEDORPRODUCTOS {
+        margin-top: 60px;
+        text-align: center; 
+       
+    }
+    
+    .CONTENEDORPRODUCTOS h1 {
+        font-size: 36px;
+    }
+    
+    .IMAGENESCONTENEDORPRODUCTOS {
+        margin-top: -10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .IMAGENESCONTENEDORPRODUCTOS img {
+        max-width: 200px; 
+
+    }
+
+}
+
+
+/* PRODUCTOSCELULAR*/
+
+@media screen and (max-width: 320px) {
+
+.PRODUCTOSTEXTOABAJODEIMAGEN h1 {
+    font-size: 30px; 
+    font-family: 'Roboto', sans-serif;
+    color: #023567; 
+    margin-top: -50px;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN p {
+    margin: 0;
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #000000; 
+    max-width: 99%; 
+    overflow-y: auto;
+}
+
+.LIMPIADORESF img {
+    width: 70%; 
+    height: auto;
+}
+
+.HIDRATANTESC img {
+    width: 70%; 
+    height: auto;
+}
+
+.HIDRATANTESF img {
+    width: 70%; 
+    height: auto;
+}
+
+.LIMPIADORESC img {
+    width: 70%; 
+    height: auto;
+}
+
+.SERUMS img {
+    width: 70%; 
+    height: auto;
+}
+
+.CREMA img {
+    width: 70%; 
+    height: auto;
+}
+
+}
+
+/* NEWCELULAR*/
+
+@media screen and (max-width: 320px) {
+
+    .NEWSLETTERSIGNUP h1 {
+        margin-top: -20px;
+    }
+    
+    .NEWSLETTERSIGNUP p {
+        font-size: 18px;
+        max-width: 95%;
+        margin-top: -20px;
+    }
+    
+    
+    .formulario {
+        max-width: 250px; 
+    }
+      
+      .formulario input,
+      .formulario textarea {
+        width: 100%;
+        height: 50px;
+      }
+      
+      
+      .formulario button {
+        height: 65px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+      }
+      
+
+      
+      p{
+        font-size: 18px; 
+        color: #0e0e0e; 
+      }
+      
+    
+      .select_piel {
+        width: 100%;
+        height: 50px;
+    }
+    
+ 
+}

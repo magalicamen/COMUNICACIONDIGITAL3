@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERAVE</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <a href="index.html"> 
+        <img class="logo" src="IMAGENESWEB/LOGO.png" alt="logo"> 
+    </a>
+    <nav  id="nav"> 
+        <ul class="menuprincipal">
+            <li><a href="nosotros.html">NOSOTROS</a></li>
+            <li><a href="productos.html">PRODUCTOS</a></li>
+            <li><a href="new.html">NEWSLETTER SIGNUP</a></li>
+        </ul>
+    </nav>
+    <div class="linea-con-degradado"></div>
+
+    <div id="NEWSLETTERSIGNUP">
+        <div class="NEWSLETTERSIGNUP">
+    <h1>NEWSLETTER SIGNUP</h1>
+    <p>Complete sus datos aquí para registrarse y recibir información sobre los últimos 
+        lanzamientos de productos y noticias de la campaña CeraVe directamente en su bandeja 
+        de entrada. Además, todos nuestros trucos, consejos y sugerencias personalizados según 
+        tus necesidades de cuidado de la piel.</p>
+        </div>
+    </div>
+
+    <div class="formulario">
+        <form action="submeter-formulario.php" method="post">       
+        
+            <p>
+              <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+          
+            <p>
+              <label for="apellido" class="colocar_apellido">Apellido
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu Apellido">
+            </p>
+        
+            <p>
+              <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+            </label>
+                <input type="email" name="introducir_email" id="telefono" placeholder="Escribe tu email">
+            </p>    
+          
+            <p>
+              <label for="fechadenacimiento" class="colocar_fechadenacimiento">Fecha De Nacimiento
+                <span class="obligatorio">*</span>  
+            </label>
+                <input type="fechadenacimiento" name="introducir_fechadenacimiento" id="fechadenacimiento" placeholder="Escribe tu fecha de nacimiento">
+            </p>     
+          
+            <p>
+                <label for="piel" class="colocar_piel">Tipo de piel
+                    <span class="obligatorio">*</span>
+                </label>
+                <select name="introducir_piel" class="select_piel" id="Tipo de piel" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="piel_seca">Piel seca</option>
+                    <option value="piel_grasa">Piel grasa</option>
+                    <option value="piel_mixta">Piel mixta</option>
+                    <option value="piel_normal">Piel normal</option>
+                </select>
+            </p>                
+          
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+        
+      </form>
+</div>
+    
+
+    <footer class="footer">
+        <div class="linea-con-degradado2"></div>
+    
+        <div class="nosotrosfooter">
+            <div class="contenido">
+                <h1>NOSOTROS</h1>
+                <p>Desarrollada con dermatólogos, CeraVe ofrece una línea completa 
+                    de productos para el cuidado de la piel que contienen tres 
+                    ceramidas esenciales potenciadas con un revolucionario sistema 
+                    de liberación para ayudar a restaurar la barrera protectora 
+                    natural de la piel.</p>
+            </div>
+        </div>
+    
+        <div class="redesfooter">
+            <div class="textoredes">
+                <h1>NUESTRAS REDES</h1>
+            </div>
+            <div class="iconosredes">
+                <img class="ICONO1" src="IMAGENESWEB/ICONO1.png" alt="ICONO1">
+                <img class="ICONO2" src="IMAGENESWEB/ICONO2.png" alt="ICONO2">
+                <img class="ICONO3" src="IMAGENESWEB/ICONO3.png" alt="ICONO3">
+            </div>
+        </div>
+    
+        <div class="newfooter">
+            <div class="contenido">
+                <h1>TU NEWSTELER CERAVE</h1>
+                <p>Todos los beneficios en un solo lugar
+                    Inspiración y Consejos
+                    Información personalizada y consejos sobre nuestros productos
+                    Mantenete informad@ sobre nuestros eventos y oportunidades únicas</p>
+                <div class="formulario0">
+                    <input type="email" placeholder="Correo electrónico">
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="copyright"></div>
+    <p class="copyright">Copyright © 2023 CERAVE - 
+        By WP Technologies.</p>
+    </div>
+    
+    </footer>
+
+
+    </body>
+    
+    </html>
